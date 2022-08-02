@@ -12,18 +12,22 @@ struct AppButton: View {
     
     let style: AppButtonStyle
     let title: String
+    let action: () -> Void
+    
     var body: some View {
-        HStack{
-            Spacer()
-            Text(title)
-                .font(.system(size: 17, weight: .semibold))
-                .foregroundColor(style.textColor)
-            Spacer()
+        Button(action: action){
+            HStack{
+                Spacer()
+                Text(title)
+                    .font(.system(size: 17, weight: .semibold))
+                    .foregroundColor(style.textColor)
+                Spacer()
+            }
+            .padding(.vertical, 17)
+            .background(style.background)
+            .cornerRadius(10)
+            .overlay(content: disabledView)
         }
-        .padding(.vertical, 17)
-        .background(style.background)
-        .cornerRadius(10)
-        .overlay(content: disabledView)
     }
 }
 
@@ -39,6 +43,6 @@ private extension AppButton{
 
 struct AppButton_Previews: PreviewProvider {
     static var previews: some View {
-        AppButton(style: .button1, title: "Получить код")
+        AppButton(style: .button1, title: "Получить код", action: {})
     }
 }

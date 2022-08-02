@@ -11,6 +11,11 @@
 		9F0B80E22886F5BE00E98849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B80E12886F5BE00E98849 /* ContentView.swift */; };
 		9F0B80E42886F5C000E98849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0B80E32886F5C000E98849 /* Assets.xcassets */; };
 		9F0B80E72886F5C000E98849 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0B80E62886F5C000E98849 /* Preview Assets.xcassets */; };
+		9F1CC65B28977F4000863C29 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CC65A28977F4000863C29 /* Settings.swift */; };
+		9F1CC65F2897AE3600863C29 /* SettingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CC65E2897AE3600863C29 /* SettingCellView.swift */; };
+		9F1CC6612897AE5000863C29 /* SettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CC6602897AE5000863C29 /* SettingsListView.swift */; };
+		9F1CC6632897AE7300863C29 /* SettingsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CC6622897AE7300863C29 /* SettingsListViewModel.swift */; };
+		9F1CC6652897B91F00863C29 /* PersonalAreaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CC6642897B91F00863C29 /* PersonalAreaCellView.swift */; };
 		9F2C0C0A288995C6000E4706 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C0C09288995C6000E4706 /* Frame.swift */; };
 		9F2C0C0D28899944000E4706 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C0C0C28899944000E4706 /* Container.swift */; };
 		9F2C0C0F2889A02A000E4706 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2C0C0E2889A02A000E4706 /* Launch Screen.storyboard */; };
@@ -18,7 +23,17 @@
 		9F2C0C1A2889A463000E4706 /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C0C192889A463000E4706 /* AuthorizationViewModel.swift */; };
 		9F2C0C1F2889A58E000E4706 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C0C1E2889A58E000E4706 /* AppButton.swift */; };
 		9F2C0C222889A5B3000E4706 /* AppButtonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C0C212889A5B3000E4706 /* AppButtonFile.swift */; };
+		9F44FBA528902EF500476003 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44FBA428902EF500476003 /* AppTextField.swift */; };
+		9F48AB652892D0C300AD4CC4 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48AB642892D0C300AD4CC4 /* UsersListView.swift */; };
+		9F48AB672892D0D800AD4CC4 /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48AB662892D0D800AD4CC4 /* UsersListViewModel.swift */; };
+		9F48AB6A2892D10300AD4CC4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48AB692892D10300AD4CC4 /* User.swift */; };
+		9F48AB6D2892D5D900AD4CC4 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48AB6C2892D5D900AD4CC4 /* UserCellView.swift */; };
+		9F48AB702892DD5000AD4CC4 /* ServerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48AB6F2892DD5000AD4CC4 /* ServerUser.swift */; };
+		9F48AB732892DEB600AD4CC4 /* BaseModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48AB722892DEB600AD4CC4 /* BaseModelMapper.swift */; };
+		9F48AB752892DFA500AD4CC4 /* UserModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48AB742892DFA500AD4CC4 /* UserModelMapper.swift */; };
 		9FCDB9E4288C86C70087E397 /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCDB9E3288C86C70087E397 /* AppleButton.swift */; };
+		9FF46BA52898298800EA072C /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF46BA42898298800EA072C /* SearchTextField.swift */; };
+		9FF46BA72898324E00EA072C /* CellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF46BA62898324E00EA072C /* CellButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +42,11 @@
 		9F0B80E12886F5BE00E98849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F0B80E32886F5C000E98849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0B80E62886F5C000E98849 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F1CC65A28977F4000863C29 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9F1CC65E2897AE3600863C29 /* SettingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellView.swift; sourceTree = "<group>"; };
+		9F1CC6602897AE5000863C29 /* SettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListView.swift; sourceTree = "<group>"; };
+		9F1CC6622897AE7300863C29 /* SettingsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListViewModel.swift; sourceTree = "<group>"; };
+		9F1CC6642897B91F00863C29 /* PersonalAreaCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalAreaCellView.swift; sourceTree = "<group>"; };
 		9F2C0C09288995C6000E4706 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		9F2C0C0C28899944000E4706 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		9F2C0C0E2889A02A000E4706 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -34,7 +54,17 @@
 		9F2C0C192889A463000E4706 /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
 		9F2C0C1E2889A58E000E4706 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		9F2C0C212889A5B3000E4706 /* AppButtonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonFile.swift; sourceTree = "<group>"; };
+		9F44FBA428902EF500476003 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		9F48AB642892D0C300AD4CC4 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
+		9F48AB662892D0D800AD4CC4 /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
+		9F48AB692892D10300AD4CC4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9F48AB6C2892D5D900AD4CC4 /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
+		9F48AB6F2892DD5000AD4CC4 /* ServerUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerUser.swift; sourceTree = "<group>"; };
+		9F48AB722892DEB600AD4CC4 /* BaseModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModelMapper.swift; sourceTree = "<group>"; };
+		9F48AB742892DFA500AD4CC4 /* UserModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelMapper.swift; sourceTree = "<group>"; };
 		9FCDB9E3288C86C70087E397 /* AppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleButton.swift; sourceTree = "<group>"; };
+		9FF46BA42898298800EA072C /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		9FF46BA62898324E00EA072C /* CellButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +119,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9F1CC65C2897AE0F00863C29 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9F1CC65D2897AE2000863C29 /* Components */,
+				9F1CC6602897AE5000863C29 /* SettingsListView.swift */,
+				9F1CC6622897AE7300863C29 /* SettingsListViewModel.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		9F1CC65D2897AE2000863C29 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9F1CC65E2897AE3600863C29 /* SettingCellView.swift */,
+				9F1CC6642897B91F00863C29 /* PersonalAreaCellView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		9F2C0C08288995A8000E4706 /* Modificators */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +174,8 @@
 		9F2C0C122889A358000E4706 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				9F1CC65C2897AE0F00863C29 /* SettingsScreen */,
+				9F48AB632892D09B00AD4CC4 /* UsersListScreen */,
 				9F2C0C162889A42D000E4706 /* AuthorizationScreen */,
 			);
 			path = Modules;
@@ -133,6 +184,9 @@
 		9F2C0C132889A361000E4706 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9F48AB712892DE9D00AD4CC4 /* Mappers */,
+				9F48AB6E2892DD4000AD4CC4 /* ServerModels */,
+				9F48AB682892D0E800AD4CC4 /* LocalModels */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +218,7 @@
 		9F2C0C1B2889A565000E4706 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				9F44FBA328902ECB00476003 /* TextField */,
 				9F2C0C1C2889A571000E4706 /* Buttons */,
 			);
 			path = Components;
@@ -183,8 +238,62 @@
 				9F2C0C1E2889A58E000E4706 /* AppButton.swift */,
 				9F2C0C212889A5B3000E4706 /* AppButtonFile.swift */,
 				9FCDB9E3288C86C70087E397 /* AppleButton.swift */,
+				9FF46BA62898324E00EA072C /* CellButton.swift */,
 			);
 			path = AppButton;
+			sourceTree = "<group>";
+		};
+		9F44FBA328902ECB00476003 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				9F44FBA428902EF500476003 /* AppTextField.swift */,
+				9FF46BA42898298800EA072C /* SearchTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		9F48AB632892D09B00AD4CC4 /* UsersListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9F48AB6B2892D5C900AD4CC4 /* Components */,
+				9F48AB642892D0C300AD4CC4 /* UsersListView.swift */,
+				9F48AB662892D0D800AD4CC4 /* UsersListViewModel.swift */,
+			);
+			path = UsersListScreen;
+			sourceTree = "<group>";
+		};
+		9F48AB682892D0E800AD4CC4 /* LocalModels */ = {
+			isa = PBXGroup;
+			children = (
+				9F48AB692892D10300AD4CC4 /* User.swift */,
+				9F1CC65A28977F4000863C29 /* Settings.swift */,
+			);
+			path = LocalModels;
+			sourceTree = "<group>";
+		};
+		9F48AB6B2892D5C900AD4CC4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9F48AB6C2892D5D900AD4CC4 /* UserCellView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9F48AB6E2892DD4000AD4CC4 /* ServerModels */ = {
+			isa = PBXGroup;
+			children = (
+				9F48AB6F2892DD5000AD4CC4 /* ServerUser.swift */,
+			);
+			path = ServerModels;
+			sourceTree = "<group>";
+		};
+		9F48AB712892DE9D00AD4CC4 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				9F48AB722892DEB600AD4CC4 /* BaseModelMapper.swift */,
+				9F48AB742892DFA500AD4CC4 /* UserModelMapper.swift */,
+			);
+			path = Mappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,15 +367,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F48AB6A2892D10300AD4CC4 /* User.swift in Sources */,
+				9F1CC6632897AE7300863C29 /* SettingsListViewModel.swift in Sources */,
+				9F1CC6612897AE5000863C29 /* SettingsListView.swift in Sources */,
+				9F48AB732892DEB600AD4CC4 /* BaseModelMapper.swift in Sources */,
+				9F48AB652892D0C300AD4CC4 /* UsersListView.swift in Sources */,
+				9F48AB672892D0D800AD4CC4 /* UsersListViewModel.swift in Sources */,
+				9F48AB6D2892D5D900AD4CC4 /* UserCellView.swift in Sources */,
 				9F2C0C1A2889A463000E4706 /* AuthorizationViewModel.swift in Sources */,
+				9F1CC65B28977F4000863C29 /* Settings.swift in Sources */,
+				9FF46BA52898298800EA072C /* SearchTextField.swift in Sources */,
 				9F2C0C0A288995C6000E4706 /* Frame.swift in Sources */,
+				9F48AB702892DD5000AD4CC4 /* ServerUser.swift in Sources */,
 				9F2C0C0D28899944000E4706 /* Container.swift in Sources */,
+				9F1CC65F2897AE3600863C29 /* SettingCellView.swift in Sources */,
+				9F1CC6652897B91F00863C29 /* PersonalAreaCellView.swift in Sources */,
+				9FF46BA72898324E00EA072C /* CellButton.swift in Sources */,
 				9FCDB9E4288C86C70087E397 /* AppleButton.swift in Sources */,
 				9F2C0C222889A5B3000E4706 /* AppButtonFile.swift in Sources */,
 				9F0B80E22886F5BE00E98849 /* ContentView.swift in Sources */,
+				9F48AB752892DFA500AD4CC4 /* UserModelMapper.swift in Sources */,
 				9F2C0C182889A44E000E4706 /* AuthorizationView.swift in Sources */,
 				9F2C0C1F2889A58E000E4706 /* AppButton.swift in Sources */,
 				9F0B80E02886F5BE00E98849 /* ProfsoftApp.swift in Sources */,
+				9F44FBA528902EF500476003 /* AppTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
